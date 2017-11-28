@@ -1,0 +1,77 @@
+﻿<Controls:MetroWindow x:Class="ImgTool.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImgTool"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        Title="" Icon="Resources/oneteam.png" Height="313.169" Width="638.452" WindowStartupLocation="CenterScreen" IsMinButtonEnabled="False" IsMaxRestoreButtonEnabled="False" ShowMaxRestoreButton="False" ShowMinButton="False" TitleAlignment="Center" TitleCaps="False" ResizeMode="NoResize">
+    <Grid Margin="11,0,0,0" HorizontalAlignment="Left" Width="617" Height="250" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="118*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="92" Margin="120,26,0,0" VerticalAlignment="Top" Width="340" Source="Resources/oneteam_logo.png"/>
+        <Controls:MetroAnimatedTabControl x:Name="metroAnimatedTabControl" HorizontalAlignment="Left" Margin="10,123,0,0" VerticalAlignment="Top" Height="116" Width="597" IsSynchronizedWithCurrentItem="True" Controls:TabControlHelper.IsUnderlined="True">
+            <TabItem x:Name="tab1" Header="tab1" Controls:ControlsHelper.HeaderFontSize="20" Controls:TabControlHelper.IsUnderlined="True" UseLayoutRounding="False" Cursor="Hand">
+                <Grid Background="#FFFBFBFB" Margin="0,0,0,-12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn1" Content="btn" HorizontalAlignment="Right" Margin="0,21,315,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn1_Click"/>
+                    <Button x:Name="btn2" Content="btn" HorizontalAlignment="Right" Margin="0,21,26,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn2_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab2" Header="tab2" Controls:ControlsHelper.HeaderFontSize="20" Controls:TabControlHelper.IsUnderlined="True" UseLayoutRounding="False" Cursor="Hand">
+                <Grid Background="#FFFBFBFB" Margin="0,0,0,-12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn3" Content="btn" HorizontalAlignment="Right" Margin="0,21,315,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn3_Click"/>
+                    <Button x:Name="btn4" Content="btn" HorizontalAlignment="Right" Margin="0,21,26,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn4_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab3" Header="tab3" Controls:ControlsHelper.HeaderFontSize="20" Controls:TabControlHelper.IsUnderlined="True" UseLayoutRounding="False" Cursor="Hand">
+                <Grid Background="#FFFBFBFB" Margin="0,0,0,-12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn5" Content="btn" HorizontalAlignment="Right" Margin="0,21,315,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn5_Click"/>
+                    <Button x:Name="btn6" Content="btn" HorizontalAlignment="Right" Margin="0,21,26,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn6_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab4" Header="tab4" Controls:ControlsHelper.HeaderFontSize="20" Controls:TabControlHelper.IsUnderlined="True" UseLayoutRounding="False" Cursor="Hand">
+                <Grid Background="#FFFBFBFB" Margin="0,0,0,-12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn7" Content="btn" HorizontalAlignment="Right" Margin="0,21,315,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn7_Click"/>
+                    <Button x:Name="btn8" Content="btn" HorizontalAlignment="Right" Margin="0,21,26,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn8_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab5" Header="tab5" Controls:ControlsHelper.HeaderFontSize="20" Controls:TabControlHelper.IsUnderlined="True" UseLayoutRounding="False" Cursor="Hand">
+                <Grid Background="#FFFBFBFB" Margin="0,0,0,-12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn9" Content="btn" HorizontalAlignment="Right" Margin="0,21,315,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn9_Click"/>
+                    <Button x:Name="btn10" Content="btn" HorizontalAlignment="Right" Margin="0,21,26,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn10_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab6" Header="tab6" Controls:ControlsHelper.HeaderFontSize="20" Controls:TabControlHelper.IsUnderlined="True" UseLayoutRounding="False" Cursor="Hand">
+                <Grid Background="#FFFBFBFB" Margin="0,0,0,-12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn11" Content="btn" HorizontalAlignment="Right" Margin="0,21,315,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn11_Click"/>
+                    <Button x:Name="btn12" Content="btn" HorizontalAlignment="Right" Margin="0,21,26,0" VerticalAlignment="Top" Width="250" Height="41" Controls:ControlsHelper.ContentCharacterCasing="Normal" Controls:ButtonHelper.CornerRadius="500" BorderBrush="{DynamicResource Brush2}" Foreground="White" FontSize="14.667" FontFamily="Roboto" FontWeight="Normal" UseLayoutRounding="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Controls:ButtonHelper.PreserveTextCase="True" Cursor="Hand" Background="{DynamicResource Brush1}" Click="btn12_Click"/>
+                </Grid>
+            </TabItem>
+        </Controls:MetroAnimatedTabControl>
+        <Label x:Name="label" Content="Label" Margin="0,0,0,-29" VerticalAlignment="Top" Height="31" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" UseLayoutRounding="False" FontSize="16" Foreground="#FF1CB3C3" FontFamily="Roboto" HorizontalAlignment="Left" Width="575" Grid.Row="1"/>
+    </Grid>
+</Controls:MetroWindow>
