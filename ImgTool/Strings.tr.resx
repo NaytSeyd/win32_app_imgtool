@@ -129,6 +129,15 @@
   <data name="Boot_File" xml:space="preserve">
     <value>Boot Dosyası</value>
   </data>
+  <data name="Brotli_Editor" xml:space="preserve">
+    <value>Brotli</value>
+  </data>
+  <data name="BR_File" xml:space="preserve">
+    <value>Brotli Dosyası</value>
+  </data>
+  <data name="BR_To_DAT_IMG" xml:space="preserve">
+    <value>BR -&gt; DAT/IMG Dönüştür</value>
+  </data>
   <data name="Byte" xml:space="preserve">
     <value>Byte Değeri</value>
   </data>
@@ -136,13 +145,19 @@
     <value>İptal</value>
   </data>
   <data name="Copyright" xml:space="preserve">
-    <value>Bu Tool @Deftones Tarafından Geliştirilmiştir.</value>
+    <value>Bu Tool @caneray Tarafından Geliştirilmiştir.</value>
   </data>
   <data name="DAT_Editor" xml:space="preserve">
-    <value>DAT Dönüştür</value>
+    <value>DAT</value>
   </data>
   <data name="DAT_File" xml:space="preserve">
     <value>DAT Dosyası</value>
+  </data>
+  <data name="DAT_IMG_File" xml:space="preserve">
+    <value>DAT/IMG Dosyası</value>
+  </data>
+  <data name="DAT_IMG_To_BR" xml:space="preserve">
+    <value>DAT/IMG -&gt; BR Dönüştür</value>
   </data>
   <data name="DAT_To_IMG" xml:space="preserve">
     <value>DAT -&gt; IMG Dönüştür</value>
@@ -197,5 +212,11 @@
   </data>
   <data name="Warning" xml:space="preserve">
     <value>Uyarı!</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Bilgilendirme</value>
+  </data>
+  <data name="Partition_Byte_Value" xml:space="preserve">
+    <value>İmaj için Partition Byte Değeri (Boş Bırakılması Durumunda İmaj Boyutu Otomatik Hesaplanır)</value>
   </data>
 </root>

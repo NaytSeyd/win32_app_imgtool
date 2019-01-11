@@ -30,6 +30,7 @@ namespace ImgTool
             tab4.Header = lang.GetString("APK_Editor");
             tab5.Header = lang.GetString("Sparse_Editor");
             tab6.Header = lang.GetString("DAT_Editor");
+            tab7.Header = lang.GetString("Brotli_Editor");
             btn1.Content = lang.GetString("Unpack");
             btn2.Content = lang.GetString("Repack");
             btn3.Content = lang.GetString("Unpack");
@@ -42,6 +43,8 @@ namespace ImgTool
             btn10.Content = lang.GetString("Unsparse");
             btn11.Content = lang.GetString("DAT_To_IMG");
             btn12.Content = lang.GetString("IMG_To_DAT");
+            btn13.Content = lang.GetString("BR_To_DAT_IMG");
+            btn14.Content = lang.GetString("DAT_IMG_To_BR");
             label.Content = lang.GetString("Copyright");
         }
         public void Execute(string arg)
@@ -101,7 +104,7 @@ namespace ImgTool
                 {
                     dir.Delete(true);
                 }
-                Execute("libs\\extract " + file + " Source_System & del /F /Q Source_System_statfile.txt");
+                Execute("libs\\extract \"" + file + "\" Source_System & del /F /Q Source_System_statfile.txt");
                 Process.Start("Source_System");
             }
         }
@@ -140,8 +143,9 @@ namespace ImgTool
                 if (save.FileName != "")
                 {               
                     string file = save.InitialDirectory + save.FileName;
-                    String totalSize = ((GetDirectorySize("Source_System")/(1000*1000))+5).ToString()+"M";
-                    Execute("libs\\make_ext4fs -L system -S libs\\file_contexts -l "+totalSize+" -a system " + file + " Source_System");
+                    string totalSize = Microsoft.VisualBasic.Interaction.InputBox(lang.GetString("Partition_Byte_Value"), lang.GetString("Information")).Trim();
+                    if(totalSize=="" || totalSize == "0") totalSize = ((GetDirectorySize("Source_System")/(1000*1000))+5).ToString()+"M";
+                    Execute("libs\\make_ext4fs -L system -S libs\\file_contexts -l "+totalSize+" -a system \"" + file + "\" Source_System");
                 }
             }
         }
@@ -167,7 +171,7 @@ namespace ImgTool
                 {
                     dir.Delete(true);
                 }
-                Execute("xcopy /q /Y " + file + " Source_Boot & ren Source_Boot\\*.img boot.img & xcopy /q /Y libs\\bootimg.exe Source_Boot & cd Source_Boot & bootimg --unpack-bootimg & del bootimg.exe & del boot-old.img & del boot.img & cd..");
+                Execute("xcopy /q /Y \"" + file + "\" Source_Boot & ren Source_Boot\\*.img boot.img & xcopy /q /Y libs\\bootimg.exe Source_Boot & cd Source_Boot & bootimg --unpack-bootimg & del bootimg.exe & del boot-old.img & del boot.img & cd..");
                 Process.Start("Source_Boot");
             }
         }
@@ -187,7 +191,7 @@ namespace ImgTool
                 if (save.FileName != "")
                 {
                     string file = save.InitialDirectory + save.FileName;
-                    Execute("xcopy /q /Y libs\\bootimg.exe Source_Boot & cd Source_Boot & bootimg --repack-bootimg & move boot-new.img " + file + " & cd ../ & rmdir Source_Boot /s /q");
+                    Execute("xcopy /q /Y libs\\bootimg.exe Source_Boot & cd Source_Boot & bootimg --repack-bootimg & move boot-new.img \"" + file + "\" & cd ../ & rmdir Source_Boot /s /q");
                 }
             }
         }
@@ -214,7 +218,7 @@ namespace ImgTool
                 {
                     dir.Delete(true);
                 }
-                Execute("xcopy /q /Y " + file + " Source_Recovery & ren Source_Recovery\\*.img boot.img & xcopy /q /Y libs\\bootimg.exe Source_Recovery & cd Source_Recovery & bootimg --unpack-bootimg & del bootimg.exe & del boot-old.img & del boot.img & cd..");
+                Execute("xcopy /q /Y \"" + file + "\" Source_Recovery & ren Source_Recovery\\*.img boot.img & xcopy /q /Y libs\\bootimg.exe Source_Recovery & cd Source_Recovery & bootimg --unpack-bootimg & del bootimg.exe & del boot-old.img & del boot.img & cd..");
                 Process.Start("Source_Recovery");
             }
         }
@@ -234,7 +238,7 @@ namespace ImgTool
                 if (save.FileName != "")
                 {
                     string file = save.InitialDirectory + save.FileName;
-                    Execute("xcopy /q /Y libs\\bootimg.exe Source_Recovery & cd Source_Recovery & bootimg --repack-bootimg & move boot-new.img " + file + " & cd ../ & rmdir Source_Recovery /s /q");
+                    Execute("xcopy /q /Y libs\\bootimg.exe Source_Recovery & cd Source_Recovery & bootimg --repack-bootimg & move boot-new.img \"" + file + "\" & cd ../ & rmdir Source_Recovery /s /q");
                 }
             }
         }
@@ -274,7 +278,7 @@ namespace ImgTool
             if (save.FileName != "")
             {
                 string file = save.InitialDirectory + save.FileName;
-                Execute("\"" + System.IO.Path.Combine(GetJavaInstallationPath(), "bin\\java.exe") + "\" -jar libs\\apktool.jar b -f -o " + file + " Source_APK ");
+                Execute("\"" + System.IO.Path.Combine(GetJavaInstallationPath(), "bin\\java.exe") + "\" -jar libs\\apktool.jar b -f -o \"" + file + "\" Source_APK ");
             }
         }
 
@@ -294,7 +298,7 @@ namespace ImgTool
                 if (save.FileName != "")
                 {
                     string file2 = save.InitialDirectory + save.FileName;
-                    Execute("libs\\img2simg " + file + " " + file2);
+                    Execute("libs\\img2simg \"" + file + "\" \"" + file2+"\"");
                 }
             }
         }
@@ -315,7 +319,7 @@ namespace ImgTool
                 if (save.FileName != "")
                 {
                     string file2 = save.InitialDirectory + save.FileName;
-                    Execute("libs\\simg2img " + file + " " + file2);
+                    Execute("libs\\simg2img \"" + file + "\" \"" + file2+"\"");
                 }
             }
         }
@@ -329,7 +333,7 @@ namespace ImgTool
             if (openFileDialog1.FileName != "")
             {
                 string directory = System.IO.Path.GetDirectoryName(openFileDialog1.InitialDirectory + openFileDialog1.FileName) + "\\";
-                Execute("libs\\sdat2img " + directory + "system.transfer.list " + directory + "system.new.dat " + directory + "system.img");
+                Execute("libs\\sdat2img \"" + directory + "system.transfer.list\" \"" + directory + "system.new.dat\" \"" + directory + "system.img\"");
             }
         }
 
@@ -343,13 +347,39 @@ namespace ImgTool
             {
                 string file = openFileDialog1.InitialDirectory + openFileDialog1.FileName;
                 string directory = System.IO.Path.GetDirectoryName(file) + "\\";
-                Execute("libs\\rimg2sdat " + file + " & move system.new.dat " + directory + "system.new.dat & move system.transfer.list " + directory + "system.transfer.list");
+                Execute("libs\\rimg2sdat \"" + file + "\" & move system.new.dat \"" + directory + "system.new.dat\" & move system.transfer.list \"" + directory + "system.transfer.list\"");
             }
         }
         protected override void OnClosed(EventArgs e)
         {
             base.OnClosed(e);
             Application.Current.Shutdown();
+        }
+
+        private void Btn13_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            openFileDialog1.Filter = lang.GetString("BR_File") + " (.br)|*.br";
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.ShowDialog();
+            if (openFileDialog1.FileName != "")
+            {
+                string file = openFileDialog1.InitialDirectory + openFileDialog1.FileName;
+                Execute("libs\\brotli -d \""+file+"\"");
+            }
+        }
+
+        private void Btn14_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            openFileDialog1.Filter = lang.GetString("DAT_IMG_File") + " (.dat,.img)|*.dat;*.img";
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.ShowDialog();
+            if (openFileDialog1.FileName != "")
+            {
+                string file = openFileDialog1.InitialDirectory + openFileDialog1.FileName;
+                Execute("libs\\brotli \"" + file+"\"");
+            }
         }
     }
 }

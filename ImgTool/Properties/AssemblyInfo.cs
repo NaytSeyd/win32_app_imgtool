@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("One Team")]
 [assembly: AssemblyProduct("Img Tool")]
-[assembly: AssemblyCopyright("Copyright © 2016")]
+[assembly: AssemblyCopyright("Copyright © 2019")]
 [assembly: AssemblyTrademark("www.one-teams.com")]
 [assembly: AssemblyCulture("")]
 

@@ -1,0 +1,85 @@
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\apktool.jar
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\bootimg.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\cyggcc_s-1.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\cygwin1.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\cygz.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\extract.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\img2simg.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\make_ext4fs.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\python34.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\rimg2sdat.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\sdat2img.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\simg2img.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\file_contexts
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\One Team - Img Tool V5.exe.config
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\One Team - Img Tool V5.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\de\One Team - Img Tool V5.resources.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\en\One Team - Img Tool V5.resources.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\tr\One Team - Img Tool V5.resources.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\MahApps.Metro.xml
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\OptionsWindow.g.cs
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\MainWindow.g.cs
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\App.g.cs
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5_Content.g.cs
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5_MarkupCompile.cache
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5_MarkupCompile.lref
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\App.baml
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\OptionsWindow.baml
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\MainWindow.baml
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5.g.resources
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Properties.Resources.resources
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Strings.resources
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Strings.de.resources
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Strings.en.resources
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Strings.tr.resources
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.csproj.GenerateResource.cache
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.csproj.CoreCompileInputs.cache
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\de\One Team - Img Tool V5.resources.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\en\One Team - Img Tool V5.resources.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\tr\One Team - Img Tool V5.resources.dll
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.csproj.CopyComplete
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5.exe
+C:\Users\Caner\Desktop\win32_app_IMGTool\ImgTool\bin\Release\libs\brotli.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\apktool.jar
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\bootimg.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\brotli.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\cyggcc_s-1.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\cygwin1.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\cygz.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\extract.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\img2simg.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\make_ext4fs.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\python34.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\rimg2sdat.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\sdat2img.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\simg2img.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\libs\file_contexts
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\MahApps.Metro.xml
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.csprojAssemblyReference.cache
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\OptionsWindow.g.cs
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\MainWindow.g.cs
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\App.g.cs
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\App.baml
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\OptionsWindow.baml
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\MainWindow.baml
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Properties.Resources.resources
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Strings.resources
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Strings.de.resources
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Strings.en.resources
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.Strings.tr.resources
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.csproj.GenerateResource.cache
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.csproj.CoreCompileInputs.cache
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\ImgTool.csproj.CopyComplete
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\One Team - Img Tool V5.1.exe.config
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\One Team - Img Tool V5.1.exe
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\de\One Team - Img Tool V5.1.resources.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\en\One Team - Img Tool V5.1.resources.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\bin\Release\tr\One Team - Img Tool V5.1.resources.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5.1_Content.g.cs
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5.1_MarkupCompile.cache
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5.1_MarkupCompile.lref
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5.1.g.resources
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\de\One Team - Img Tool V5.1.resources.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\en\One Team - Img Tool V5.1.resources.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\tr\One Team - Img Tool V5.1.resources.dll
+C:\Users\Caner\Desktop\dev\win32_app_IMGTool\ImgTool\obj\Release\One Team - Img Tool V5.1.exe
